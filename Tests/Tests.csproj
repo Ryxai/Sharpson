@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CSharpson\CSharpson.csproj">
+    <ProjectReference Include="..\CSharpson\Sharpson.csproj">
       <Project>{00eef3f7-8124-4a9c-b8f5-0fcbe02a609a}</Project>
-      <Name>CSharpson</Name>
+      <Name>Sharpson</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
