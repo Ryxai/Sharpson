@@ -11,9 +11,9 @@ namespace Tests
 {
     using System;
 
-    using CSharpson;
-
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+    using Sharpson;
 
     /// <summary>
     /// Test for the <see cref="ArgumentMatcher" /> class

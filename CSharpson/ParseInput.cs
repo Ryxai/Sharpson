@@ -1,33 +1,12 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="ParseInput.cs" company="Ryxai">
-//   The MIT License (MIT)
+// <copyright file="ParseInput.cs" company="">
 //   
-//   Copyright (c) 2014 Ryxai
-//   
-//   Permission is hereby granted, free of charge, to any person obtaining a copy
-//   of this software and associated documentation files (the "Software"), to deal
-//   in the Software without restriction, including without limitation the rights
-//   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-//   copies of the Software, and to permit persons to whom the Software is
-//   furnished to do so, subject to the following conditions:
-//   
-//   The above copyright notice and this permission notice shall be included in
-//   all copies or substantial portions of the Software.
-//   
-//   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-//   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-//   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-//   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-//   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-//   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-//   THE SOFTWARE.
 // </copyright>
 // <summary>
 //   TODO The parse input.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-
-namespace CSharpson
+namespace Sharpson
 {
     using System.Collections.Generic;
 
@@ -147,68 +126,41 @@ namespace CSharpson
 
         #region Public Methods and Operators
 
-        /// <summary>
-        /// TODO The match flag arguments.
-        /// </summary>
-        /// <param name="option">
-        /// TODO The option.
-        /// </param>
-        /// <param name="keys">
-        /// TODO The keys.
-        /// </param>
-        /// <param name="values">
-        /// TODO The values.
-        /// </param>
-        /// <param name="all">
-        /// TODO The all.
-        /// </param>
-        /// <param name="arg">
-        /// TODO The arg.
-        /// </param>
-        /// <param name="prefixLength">
-        /// TODO The prefix length.
-        /// </param>
-        public static void MatchFlagArguments(
-            string option, 
-            string[] keys, 
-            int[] values, 
-            int all, 
-            string arg, 
-            int prefixLength)
+        public void GetArguments(string[] arguments)
         {
+            
         }
-
         #endregion
 
         /// <summary>
-        /// TODO The bison language.
+        /// Information container for output languages for bison
         /// </summary>
         public struct BisonLanguage
         {
             #region Fields
 
             /// <summary>
-            /// TODO The add tab.
+            /// Boolean flag whether tabs should be added
             /// </summary>
             public bool AddTab;
 
             /// <summary>
-            /// TODO The header extension.
+            /// Extension for header files of the given language
             /// </summary>
             public string HeaderExtension;
 
             /// <summary>
-            /// TODO The language.
+            /// Name of the output language
             /// </summary>
             public string Language;
 
             /// <summary>
-            /// TODO The skeleton.
+            /// Filename for structural file representing the given language. Consumed to produce output.
             /// </summary>
             public string Skeleton;
 
             /// <summary>
-            /// TODO The source extension.
+            /// Extension for given code files
             /// </summary>
             public string SourceExtension;
 

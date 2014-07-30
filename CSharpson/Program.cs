@@ -27,7 +27,7 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace CSharpson
+namespace Sharpson
 {
     using System.Collections.Generic;
 

@@ -27,7 +27,7 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace CSharpson
+namespace Sharpson
 {
     /// <summary>
     /// A class of static constants
@@ -76,6 +76,20 @@ namespace CSharpson
             /// TODO The default.
             /// </summary>
             Default
+        }
+
+        public enum HasArguments
+        {
+            NoArgument = 0,
+            RequiredArgument = 1,
+            OptionalArgument = 2
+        }
+
+        public enum ArgumentEnumerationMode
+        {
+            RequireOrder = 0,
+            ReturnInOrder = 1,
+            Permute = 2
         }
 
         #endregion

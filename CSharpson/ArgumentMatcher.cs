@@ -6,7 +6,7 @@
 //   Matches the input arguments to a list of predefined options
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
-namespace CSharpson
+namespace Sharpson
 {
     using System;
     using System.Text;
